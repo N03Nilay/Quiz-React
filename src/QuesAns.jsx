@@ -1,20 +1,20 @@
 const QuesAns = [
     {
         id: "1",
-        ques: "Find the odd number hdhdhd dhhdhd hdhdhd hddhhd dhdhhd dhhdhd hdh hhhd hdhdhd hd dh hd hd hd hd hd hd hd hd h ? Q1: Find the odd number hdhdhd dhhdhd hdhdhd hddhhd dhdhhd dhhdhd hdh hhhd hdhdhd hd dh hd hd hd hd hd hd hd hd h ? ",
-        a: "nilay rudra",
-        b: "6",
-        c: "hdhdh dhhdh",
-        d: "2",
+        ques: "Who is the Prime Minister of India ?",
+        a: "Shri Narendra Modi",
+        b: "Rahul Gandhi",
+        c: "Manmohan Singh",
+        d: "Rajeev Gandhi",
         ans: "a"
     },
     {
         id: "2",
-        ques: "who is you",
-        a:"me",
-        b: "he",
-        c: "she",
-        d: "they",
+        ques: "Sum  of 25 and 25 ?",
+        a:"50",
+        b: "500",
+        c: "15",
+        d: "25",
         ans: "a"
 
     },
@@ -24,7 +24,7 @@ const QuesAns = [
         a: "5",
         b: "7",
         c: "11",
-        d: "2",
+        d: "8",
         ans: "d"
     },
     {
@@ -33,26 +33,35 @@ const QuesAns = [
         a: "6",
         b: "5",
         c: "8",
-        d: "2",
+        d: "9",
         ans: "b"
     },
     {
         id: "5",
-        ques: "Find the 2 digit number ?",
-        a: "6",
-        b: "58",
-        c: "8",
-        d: "2",
+        ques: "Find the least 2 digit number ?",
+        a: "68",
+        b: "99",
+        c: "97",
+        d: "20",
         ans: "b"
     },
     {
         id: "6",
-        ques: "Find the armstrong number ?",
-        a: "153",
-        b: "5",
-        c: "8",
-        d: "2",
+        ques: "Quotient when 25 is divided by 10 ?",
+        a: "2.5",
+        b: "25",
+        c: "0.25",
+        d: "25.5",
         ans: "a"
+    },
+    {
+        id: "",
+        ques: "",
+        a: "",
+        b: "",
+        c: "",
+        d: "",
+        ans: ""
     }
 ];
 

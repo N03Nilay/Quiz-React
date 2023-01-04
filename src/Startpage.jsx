@@ -15,7 +15,7 @@ const Startpage = () => {
             </div>
             <div className="rules-num">
                 <ul>
-                    <li> &#187; This quiz consists of <b>{QuesAns.length}</b> MCQ questions .</li>
+                    <li> &#187; This quiz consists of <b>{QuesAns.length-1}</b> MCQ questions .</li>
                     <li> &#187; Each questions carries <b>2</b> marks</li>
                     <li> &#187; For every wrong or unattempted questions <b>0.5</b> marks will be deducted.</li>
                     <li> &#187; You will be given <b>10 seconds</b> to answer each question</li>
