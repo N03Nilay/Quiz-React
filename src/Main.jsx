@@ -68,7 +68,7 @@ const Main = () => {
         
         <div className="main-left">
             <div className="main-left-up">
-        <div className='ques-count'><b>#</b>Question {(QuesAns[count].id)} of {(QuesAns.length-1)}</div>
+        <div className='ques-count'><b># </b>Question <b>{(QuesAns[count].id)}</b> of {(QuesAns.length-1)}</div>
         <div className="time">
                 {(timer >= 0) ? ((timer<10) ? (((timer<4) ? (<h3 style={{background:"rgb(243, 16, 16)"}}>0{timer}</h3>) : (<h3>0{timer}</h3>))) : (<h3>{timer}</h3>)) : (next())}
                 

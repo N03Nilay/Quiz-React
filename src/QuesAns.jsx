@@ -1,7 +1,7 @@
 const QuesAns = [
     {
         id: "1",
-        ques: "Who is the Prime Minister of India ?",
+        ques: "Who is the Prime Minister of India ? ",
         a: "Shri Narendra Modi",
         b: "Rahul Gandhi",
         c: "Manmohan Singh",

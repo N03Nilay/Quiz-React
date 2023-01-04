@@ -24,16 +24,16 @@ const Assessment = () => {
         </div>
         <div className="score-down">
           <div className="attempted">
-            <h3>{corr} / {tot}</h3>
             <p>Attempted / correct</p>
+            <h3>{corr} / {tot}</h3>
           </div>
           <div className="accuracy">
-          <h3>{accu} %</h3>
           <p>Accuracy</p>
+          <h3>{accu} %</h3>
           </div>
           <div className="unattempted">
-          <h3>{wro} / {tot}</h3>
           <p>Unattempted / Wrong</p>
+          <h3>{wro} / {tot}</h3>
           </div>
         </div>
         <button className='reattempt' onClick={() => {
